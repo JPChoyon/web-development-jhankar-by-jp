@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* header {
+  position: relative;
+} */
+.bannerimg {
+  max-width: 100%;
+  position: relative;
+}
+.bannerleft {
+  position: absolute;
+  top: 50%;
+  left: 70%;
+}
