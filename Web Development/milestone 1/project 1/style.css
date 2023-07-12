@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.navcontainer {
+  display: flex;
+  justify-content: space-around;
+  background-color: #424141;
+  color: white;
+  padding: 12px;
+}
+
+.navimg {
+  width: 100px;
+  padding: 5px;
+}
+
+.navimg img {
+  height: 30px;
+  width: 100px;
+  padding: 10px;
+}
+.listParent {
+  display: flex;
+}
+.listitem {
+  list-style: none;
+  margin-right: 17px;
+  padding: 5px;
+  font-size: 18px;
+}

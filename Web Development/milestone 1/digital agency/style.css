@@ -1,0 +1,253 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.navcon {
+  display: flex;
+  background-color: #d5d2d2;
+  justify-content: space-around;
+  padding: 10px;
+  align-items: center;
+}
+.navitem > ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+.navlist {
+  margin-left: 10px;
+}
+.navlist > a {
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+  font-size: 20px;
+}
+.bannercon {
+  position: relative;
+}
+.bannerimg {
+  width: 100%;
+  position: relative;
+  height: 100vh;
+  justify-content: center;
+  background-image: url(./asset/image/background.jpg),
+    linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4));
+  background-blend-mode: overlay;
+  display: flex;
+  align-items: center;
+}
+.bannerdes {
+  position: absolute;
+  padding: 300px;
+  color: white;
+  justify-content: center;
+}
+.bannerdes > h1 {
+  font-size: 86px;
+  font-weight: 900;
+}
+.bannerdes p {
+  font-size: 22px;
+  padding: 10px;
+  margin: auto;
+}
+.bannerdes > h1 > span {
+  color: red;
+}
+.btndiv {
+  display: flex;
+  justify-content: center;
+}
+.bannerbtn {
+  padding: 20px 25px;
+  background-color: red;
+  color: white;
+  border: 0;
+  margin-right: 20px;
+}
+.bannerbtn2 {
+  padding: 20px 25px;
+  background-color: white;
+  color: red;
+  border: 0;
+}
+.servicesec {
+  display: flex;
+  background-color: black;
+  position: static;
+  color: #becfd0;
+  padding: 70px 20px;
+  margin: auto;
+  align-items: center;
+}
+.servicesec h2 {
+  font-size: 40px;
+  padding: 10px;
+}
+.servicesec h2 span {
+  color: red;
+}
+.servicesec p {
+  font-size: 20px;
+  padding: 10px;
+}
+.servicesec ol {
+  font-size: 20px;
+  padding: 20px;
+}
+.servicesec ol li {
+  list-style-type: ;
+}
+.servicebtn {
+  padding: 15px 30px;
+  font-size: 16px;
+  border: 0;
+  border-radius: 35px;
+}
+.serviceprofilesec {
+  display: flex;
+}
+.serviceprofile {
+  display: flex;
+  align-items: center;
+  border-right: 1px solid red;
+  padding-right: 70px;
+}
+.serviceprofile img {
+  border-radius: 50%;
+  width: 70px;
+  margin-right: 5px;
+}
+.morebtn {
+  padding: 15px 30px;
+  margin-left: 11px;
+  border-radius: 35px;
+  color: red;
+}
+.servicediv {
+  box-shadow: 4px 4px 8px rgb(26, 24, 24);
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+  padding: 50px;
+  text-align: center;
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+}
+.servicedivcon,
+.servicedivcon2 {
+  display: flex;
+}
+.servicediv img {
+  width: 100px;
+  padding: 20px;
+}
+.appoint {
+  width: 75%;
+  padding: 30px;
+  background-color: rgb(245, 44, 44);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  border-radius: 15px;
+  margin-top: -60px;
+  color: white;
+}
+.appointcall img {
+  width: 100px;
+}
+.appointcall {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  border-right: 3px solid rgb(56, 55, 55);
+}
+.calldes {
+  font-size: 13px;
+}
+.calldes > span {
+  font-weight: bold;
+  font-size: 25px;
+}
+.appointdes {
+  padding: 25px;
+  font-size: 20px;
+}
+.appointbtn button {
+  padding: 15px 50px;
+  border-radius: 35px;
+  border: 0;
+}
+.blog h1 {
+  font-size: 60px;
+  margin: auto;
+  width: 650px;
+  margin-top: 30px;
+}
+.blog h1 span {
+  color: red;
+}
+.blog p {
+  font-size: 23px;
+  margin: auto;
+  width: 723px;
+  margin-bottom: 30px;
+  padding: 10px;
+}
+.blogdiv img {
+  width: 350px;
+  border-radius: 10px;
+  padding-bottom: 10px;
+}
+.blogtext h1 {
+  font-size: 24px;
+  padding: 0px;
+  margin: 22px 4px;
+}
+.blogdiv {
+  width: 350px;
+  height: 430px;
+  background: white;
+  box-shadow: 4px 4px 8px gray;
+  border-radius: 10px;
+}
+.blogsection {
+  display: flex;
+  justify-content: space-around;
+}
+footer {
+  margin-top: 30px;
+  background-image: url(asset/image/footer-bg.png),
+    linear-gradient(178deg, #000000, black);
+}
+.topfooter {
+  display: flex;
+  padding: 90px 1px;
+  justify-content: space-around;
+  width: 80%;
+  margin: auto;
+  align-items: center;
+}
+.agence {
+  width: 30%;
+  color: white;
+  font-size: 20px;
+}
+.usefullink {
+  color: white;
+  padding: 30px;
+  font-size: 20px;
+  list-style: none;
+}
+.botomfooter {
+  color: white;
+  font-size: 20px;
+  border-top: 1px solid white;
+  text-align: center;
+  width: 80%;
+  margin: auto;
+  padding: 21px;
+}

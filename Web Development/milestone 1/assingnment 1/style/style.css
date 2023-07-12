@@ -1,0 +1,234 @@
+/* universal css */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Lato sans-serif;
+}
+/* shared style */
+.primary-btn {
+  padding: 20px 40px;
+  border-radius: 10px;
+  border: 0;
+  color: white;
+  background-color: #e55473;
+}
+.primary-heading {
+  color: #272727;
+  text-align: center;
+  font-family: Lato;
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+.primary-pera {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+/* banner/header section style  */
+.banner {
+  background-color: rgba(229, 84, 115, 0.1);
+  display: flex;
+  align-items: center;
+  padding: 0px 200px;
+  gap: 50px;
+}
+.banner-img {
+  margin: 0px 0px -3px 0px;
+}
+.banner-txt-heading {
+  color: #272727;
+  font-size: 55px;
+  font-weight: 800;
+}
+.banner-txt-pera {
+  color: rgba(39, 39, 39, 0.6);
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 25px 0px;
+}
+.banner-img img {
+  width: 450px;
+  height: 640px;
+}
+
+/* feture section top style start from here  */
+.feture-top {
+  width: 50%;
+  margin: auto;
+  margin-top: 150px;
+}
+
+/* feture section bottom style start from here  */
+.feture-bottom {
+  display: flex;
+  gap: 35px;
+  justify-content: center;
+  padding: 50px 0px;
+}
+.feture-bottom-con {
+  background: rgba(167, 33, 98, 0.15);
+  width: 350px;
+  height: 417px;
+  border-radius: 300px 300px 0px 0px;
+}
+.con2 {
+  background: rgba(5, 151, 160, 0.15);
+}
+.con3 {
+  background: rgba(71, 125, 17, 0.15);
+}
+.img1 {
+  width: 260px;
+  height: 350px;
+  padding: 66px 43px 0px 43px;
+}
+.img2 {
+  width: 320px;
+  padding: 95px 14px 0px 14px;
+}
+.img3 {
+  width: 257px;
+  padding: 29px 47px 0px 43px;
+}
+
+.feture-bottom-con h4 {
+  color: #272727;
+  text-align: center;
+  font-family: Lato;
+  font-size: 20px;
+  font-weight: 700;
+  text-decoration-line: underline;
+  margin-top: 20px;
+}
+/* hot deal section style start from here  */
+.hot-deal {
+  margin-top: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: rgba(229, 84, 115, 0.05);
+  padding: 0px 120px;
+}
+.hot-deal-left {
+  padding: 115px;
+}
+.hot-deal-heading {
+  color: #272727;
+  font-family: Lato;
+  font-size: 40px;
+  font-weight: 800;
+  text-align: center;
+}
+.hot-deal-heading span {
+  color: #e55473;
+}
+.hot-deal-pera {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin: 22px 0px;
+}
+.hot-deal-btn {
+  display: block;
+  width: 140px;
+  margin: auto;
+}
+/* socila / instagram section start from here  */
+.social {
+  margin: auto;
+  width: 80%;
+  padding: 110px 0px;
+}
+.social-pera {
+  width: 50%;
+  margin: auto;
+}
+.social-bottom {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  margin-top: 40px;
+}
+.social-img img {
+  width: 270px;
+  height: 330px;
+}
+/* flash/best deal start  */
+.best-deal-bottom {
+  display: flex;
+  width: 80%;
+  gap: 100px;
+  margin: auto;
+  padding: 40px 0px 120px 0px;
+}
+.item-flower {
+  text-align: center;
+  color: #e55473;
+}
+.price {
+  font-weight: normal;
+  text-align: center;
+}
+.best-deal-head span {
+  color: #e55473;
+}
+.best-deal-pera {
+  width: 65%;
+  margin: auto;
+}
+/* leatest deal start  */
+.letest-deal {
+  width: 80%;
+  margin: auto;
+  background-image: url(../assets/images/Rectangle\ 9.png);
+  background-repeat: no-repeat;
+  margin-bottom: 150px;
+}
+.leatest-deal-con {
+  padding: 75px 180px;
+}
+.letest-pera {
+  margin-bottom: 30px;
+}
+.letest-mail {
+  border-radius: 8px;
+  margin: 0px 20px;
+  background: #fff;
+  border: 0;
+  padding: 20px 330px 20px 20px;
+}
+/* footer section style  start from here */
+footer {
+  background-color: black;
+  color: white;
+  padding: 110px 425px;
+}
+.footer-heading {
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 800;
+  color: #ffffff;
+}
+.footer-heading span {
+  color: #e55473;
+}
+.footer-pera {
+  color: #ffffffe5;
+}
+.copy {
+  color: rgba(255, 255, 255, 0.4);
+  text-align: center;
+  font-family: Lato;
+  font-size: 16px;
+  margin-top: 24px;
+}
