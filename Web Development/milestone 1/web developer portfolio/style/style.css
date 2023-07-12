@@ -1,0 +1,234 @@
+/* shared style */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif, open sans, lato;
+}
+.primarytext {
+  color: #fd6e0a;
+}
+.primarybtn {
+  border-radius: 5px;
+  background: #fd6e0a;
+  border: 0;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  color: white;
+  padding: 18px 35px;
+}
+.sectiontitle {
+  color: #181818;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+}
+.sectiondes {
+  color: #757575;
+  text-align: center;
+  font-weight: 400;
+}
+/* nav style  */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 30px 30px 150px;
+}
+
+.navtitle {
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 800;
+}
+ul {
+  display: flex;
+  align-items: center;
+}
+ul li {
+  list-style: none;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  margin-right: 50px;
+}
+ul li a {
+  text-decoration: none;
+  color: #474747;
+}
+
+/* develop img */
+header {
+  background: url(../images/developer.png);
+  background-repeat: no-repeat;
+  background-position: bottom left;
+}
+
+/* header style  */
+.banner {
+  background: #fff8f3;
+  display: flex;
+  align-items: center;
+  padding: 30px 30px 0px 150px;
+  background: url(../images/header_bg.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  justify-content: space-between;
+}
+.profile {
+  display: flex;
+}
+.banner .profile-pic {
+  width: 584px;
+  height: 676px;
+}
+.hi {
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 600;
+  color: #474747;
+}
+.mary {
+  font-size: 85px;
+  font-style: normal;
+  font-weight: 700;
+  color: #181818;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+.marytext {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  color: #757575;
+  margin-bottom: 45px;
+  max-width: 585px;
+}
+/* about start */
+.aboutcont {
+  margin: 130px auto;
+  background-color: #fff;
+  border-radius: 10px;
+  background: #fff8f3;
+  width: 1140px;
+  height: 550px;
+}
+.abouthead {
+  padding-top: 131px;
+}
+.aboutpera {
+  margin: 30px 0px;
+  padding: 0px 156px;
+}
+.aboutinfocon {
+  display: flex;
+  justify-content: center;
+}
+.aboutinfo {
+  margin-left: 50px;
+}
+.info {
+  color: #757575;
+  font-weight: 400;
+}
+.infodes {
+  color: #474747;
+  font-weight: bold;
+}
+/* doing section  */
+.doing {
+  margin: 131px auto;
+  width: 909px;
+}
+.dotitle {
+  margin-bottom: 30px;
+}
+.dosec {
+  margin: 0px auto;
+  line-height: 30px;
+  font-size: 18px;
+  text-align: center;
+}
+/* skill style  */
+.skillcon {
+  display: flex;
+  margin: 0px auto 131px auto;
+  max-width: 1140px;
+}
+.skill {
+  padding: 33px 30px;
+  margin-left: 24px;
+  box-shadow: #00000026 1px 1px 10px;
+}
+.skilltitle {
+  font-size: 20px;
+}
+.skill > img {
+  height: 44px;
+  width: 44px;
+  margin-bottom: 30px;
+}
+.skilldes {
+  margin-top: 30px;
+}
+/* resume section */
+.resumecon {
+  display: flex;
+  width: 1140px;
+  margin: auto;
+  gap: 90px;
+}
+.resumetitle {
+  margin-bottom: 30px;
+  font-size: 30px;
+  justify-content: center;
+}
+.columsubtitle {
+  color: #474747;
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.columtitle {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+.subtitledes {
+  color: #757575;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+.columdes {
+  margin-bottom: 30px;
+}
+hr {
+  margin: 0px 15px;
+  margin-bottom: 30px;
+}
+.btndown {
+  width: 155px;
+  margin: 0px auto;
+}
+/* footeer section start */
+footer {
+  display: flex;
+  background-color: #fff8f3;
+  padding: 130px 230px;
+  gap: 100px;
+  margin-top: 50px;
+}
+.lefttitle,
+.righttitle {
+  text-align: left;
+}
+.inputaria {
+  padding: 15px 25px;
+  margin-bottom: 24px;
+}
+.leftdes {
+  margin: 30px 0px;
+  text-align: left;
+}
